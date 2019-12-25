@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: ctrip.wireless.android:ReactAndroid:0.59.0-01-SNAPSHOT@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19c29b83de7fe0405ad44d3b69872833/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19c29b83de7fe0405ad44d3b69872833/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19c29b83de7fe0405ad44d3b69872833/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19c29b83de7fe0405ad44d3b69872833/jars/libs/infer-annotation-0.11.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/repo/ctrip/wireless/android/ReactAndroid/0.59.0-01-SNAPSHOT/ReactAndroid-0.59.0-01-20190411.014339-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/repo/ctrip/wireless/android/ReactAndroid/0.59.0-01-SNAPSHOT/ReactAndroid-0.59.0-01-20190411.014339-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -25,7 +25,9 @@ AndroidStudio导入工程的android目录
 
 ##### 2.下载 `webapp` 资源文件
 
-从   下载 `webapp` 资源文件。
+从 [地址](https://log.newbanker.work/sunis-andriod-aar/)  下载 `webapp` 资源文件并解压。
+
+<img src="./ios_images/3.png">
 
 ##### 3.拷贝 `webapp` 资源文件
 

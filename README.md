@@ -19,22 +19,22 @@ AndroidStudio导入工程的android目录
 
 ### iOS Demo使用说明
 
-###### 1.下载demo工程
+##### 1.下载demo工程
 
 下载本demo工程到本地。
 
-###### 2.下载 `webapp` 资源文件
+##### 2.下载 `webapp` 资源文件
 
 从   下载 `webapp` 资源文件。
 
-###### 3.拷贝 `webapp` 资源文件
+##### 3.拷贝 `webapp` 资源文件
 
 在demo工程中找到 `NBFrameworkBundle.bundle` ，右键  `显示包内容` ，然后将第二步下载的资源文件拷贝到 `Contents/Resources` 目录下。
 
 <img src="./ios_images/1.png" width="509" height="322" alt="显示包内容">
 <img src="./ios_images/2.png" width="507" height="151" alt=“替换资源文件的目录">
 
-###### 4.运行demo工程
+##### 4.运行demo工程
 
 打开iOS项目运行。
 

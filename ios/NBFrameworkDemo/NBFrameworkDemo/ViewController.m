@@ -41,7 +41,7 @@
         @{@"title": @"访客记录", @"type": @(NBMarketingActivity)},
         @{@"title": @"营销分析", @"type": @(NBMarketingAnalysis)}
     ];
-//    [self setupUI];
+    [self setupUI];
 }
 
 #pragma mark - UITableViewDataSource
@@ -97,7 +97,7 @@
     NBAccountListViewController *accountListVC = [[NBAccountListViewController alloc] init];
     accountListVC.callback = ^(NBAccountModel * _Nullable accountModel) {
         if (accountModel) {
-            self.tokenLbl.text = accountModel.token;
+            self.tokenField.text = accountModel.token;
             self.loginLbl.text = @"已登录";
         }
     };

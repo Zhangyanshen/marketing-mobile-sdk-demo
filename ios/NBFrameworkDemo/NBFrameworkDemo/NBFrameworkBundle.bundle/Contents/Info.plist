@@ -6,6 +6,8 @@
 	<string>18G95</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>NBFrameworkBundle</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.newbanker.marketing.NBFrameworkBundle</string>
 	<key>CFBundleInfoDictionaryVersion</key>

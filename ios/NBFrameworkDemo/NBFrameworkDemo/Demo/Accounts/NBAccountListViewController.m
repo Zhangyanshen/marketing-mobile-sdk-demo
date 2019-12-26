@@ -52,7 +52,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     NBAccountModel *model = self.accountArray[indexPath.row];
-    [TokenHelper saveToken:model.token];
+//    [TokenHelper saveToken:model.token];
     if (self.callback) {
         self.callback(model);
     }

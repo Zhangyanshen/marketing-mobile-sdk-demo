@@ -38,9 +38,14 @@ public class BaseApplication extends Application implements IShare {
     public void onCreate() {
         super.onCreate();
 
-        // 营销SDK初始化
+        /**
+         * 营销SDK初始化
+         * 示例：
+         * https://yg-marketing-api.newtamp.cn 为移动端请求地址
+         * https://yg-share.newtamp.cn 为h5请求地址
+         */
         MarketingHelper.init(this, new Configuration().setBaseService("https://yg-marketing-api.newtamp.cn")
-                .setBaseH5("https://yg-share.newtamp.cn"));;
+                .setBaseH5("https://yg-share.newtamp.cn"));
 
         // 营销SDK设置分享接口
         MarketingHelper.resetShareContext(this);

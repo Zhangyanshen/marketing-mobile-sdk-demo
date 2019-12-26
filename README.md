@@ -33,8 +33,8 @@ AndroidStudio导入工程的android目录
 
 在demo工程中找到 `NBFrameworkBundle.bundle` ，右键  `显示包内容` ，然后将第二步下载的资源文件拷贝到 `Contents/Resources` 目录下。
 
-<img src="./ios_images/1.png" width="509" height="322" alt="显示包内容">
-<img src="./ios_images/2.png" width="507" height="151" alt=“替换资源文件的目录">
+<img src="./ios_images/1.png" width="509" height="322">
+<img src="./ios_images/2.png" width="507" height="151">
 
 ##### 4.运行demo工程
 

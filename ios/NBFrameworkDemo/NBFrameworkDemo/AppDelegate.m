@@ -22,7 +22,9 @@
     // Override point for customization after application launch.
     [self confitUShareSettings];
     [self configUSharePlatforms];
-    [NBConfigure initSDK];
+    // 初始化SDK
+//    [NBConfigure configSDKWithDomainConfiguration:[NBDomainConfiguration domainConfigurationWithBaseService:@"https://www.baidu.com/" h5Service:@"https://www.sohu.com/"]];
+    [NBConfigure configSDKWithDomainConfiguration:nil];
     return YES;
 }
 

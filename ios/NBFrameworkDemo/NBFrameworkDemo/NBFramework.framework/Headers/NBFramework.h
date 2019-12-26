@@ -17,5 +17,6 @@ FOUNDATION_EXPORT const unsigned char NBFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <NBFramework/PublicHeader.h>
 #import <NBFramework/NBMarketingHelper.h>
 #import <NBFramework/NBConfigure.h>
+#import <NBFramework/NBDomainConfiguration.h>
 
 

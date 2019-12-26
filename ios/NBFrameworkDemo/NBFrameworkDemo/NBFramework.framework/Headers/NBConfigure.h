@@ -1,0 +1,21 @@
+//
+//  NBConfigure.h
+//  CRNDemo
+//
+//  Created by 张延深 on 2019/12/11.
+//  Copyright © 2019 com.ctrip. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+/// SDK初始配置
+@interface NBConfigure : NSObject
+
+/// 初始化SDK
++ (void)initSDK;
+
+@end
+
+NS_ASSUME_NONNULL_END

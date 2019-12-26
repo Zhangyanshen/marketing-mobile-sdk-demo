@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234056D323A269B2006CB7E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234056D223A269B2006CB7E9 /* AppDelegate.m */; };
+		234056D623A269B2006CB7E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 234056D523A269B2006CB7E9 /* SceneDelegate.m */; };
+		234056D923A269B2006CB7E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 234056D823A269B2006CB7E9 /* ViewController.m */; };
+		234056DC23A269B2006CB7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234056DA23A269B2006CB7E9 /* Main.storyboard */; };
+		234056DE23A269B4006CB7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 234056DD23A269B4006CB7E9 /* Assets.xcassets */; };
+		234056E123A269B4006CB7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 234056DF23A269B4006CB7E9 /* LaunchScreen.storyboard */; };
+		234056E423A269B4006CB7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 234056E323A269B4006CB7E9 /* main.m */; };
+		234056F023A26A78006CB7E9 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 234056EF23A26A78006CB7E9 /* libc++.tbd */; };
+		234056F223A26A7E006CB7E9 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234056F123A26A7E006CB7E9 /* JavaScriptCore.framework */; };
+		23AF3FD623A88677003B5CC0 /* NBFrameworkBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23AF3FD523A88677003B5CC0 /* NBFrameworkBundle.bundle */; };
+		23AF3FE923A8A816003B5CC0 /* NBNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF3FD923A8A816003B5CC0 /* NBNetworkRequest.m */; };
+		23AF3FEA23A8A816003B5CC0 /* NBAccountListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF3FDA23A8A816003B5CC0 /* NBAccountListViewController.m */; };
+		23AF3FEB23A8A816003B5CC0 /* NBAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF3FDE23A8A816003B5CC0 /* NBAccountModel.m */; };
+		23AF3FEC23A8A816003B5CC0 /* UMSocialSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23AF3FE123A8A816003B5CC0 /* UMSocialSDKResources.bundle */; };
+		23AF3FED23A8A816003B5CC0 /* UShareUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF3FE223A8A816003B5CC0 /* UShareUI.framework */; };
+		23AF3FEE23A8A816003B5CC0 /* UMShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF3FE323A8A816003B5CC0 /* UMShare.framework */; };
+		23AF3FEF23A8A816003B5CC0 /* UMCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF3FE423A8A816003B5CC0 /* UMCommon.framework */; };
+		23AF3FF023A8A816003B5CC0 /* libSocialWeChat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AF3FE723A8A816003B5CC0 /* libSocialWeChat.a */; };
+		23AF400C23A8AD1E003B5CC0 /* TokenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AF400B23A8AD1E003B5CC0 /* TokenHelper.m */; };
+		23E9F31123A3889100ABDEE0 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 23E9F31023A3889100ABDEE0 /* TZImagePickerController.bundle */; };
+		23F4A6CA23B0CB060072F143 /* NBFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F4A6C923B0CB050072F143 /* NBFramework.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		234056CE23A269B2006CB7E9 /* NBFrameworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NBFrameworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		234056D123A269B2006CB7E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		234056D223A269B2006CB7E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		234056D423A269B2006CB7E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		234056D523A269B2006CB7E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		234056D723A269B2006CB7E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		234056D823A269B2006CB7E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		234056DB23A269B2006CB7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		234056DD23A269B4006CB7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		234056E023A269B4006CB7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		234056E223A269B4006CB7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234056E323A269B4006CB7E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		234056EF23A26A78006CB7E9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		234056F123A26A7E006CB7E9 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		23AF3FD523A88677003B5CC0 /* NBFrameworkBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NBFrameworkBundle.bundle; sourceTree = "<group>"; };
+		23AF3FD923A8A816003B5CC0 /* NBNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNetworkRequest.m; sourceTree = "<group>"; };
+		23AF3FDA23A8A816003B5CC0 /* NBAccountListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAccountListViewController.m; sourceTree = "<group>"; };
+		23AF3FDB23A8A816003B5CC0 /* NBAccountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAccountModel.h; sourceTree = "<group>"; };
+		23AF3FDC23A8A816003B5CC0 /* NBNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNetworkRequest.h; sourceTree = "<group>"; };
+		23AF3FDD23A8A816003B5CC0 /* NBAccountListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAccountListViewController.h; sourceTree = "<group>"; };
+		23AF3FDE23A8A816003B5CC0 /* NBAccountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAccountModel.m; sourceTree = "<group>"; };
+		23AF3FE123A8A816003B5CC0 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		23AF3FE223A8A816003B5CC0 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UShareUI.framework; sourceTree = "<group>"; };
+		23AF3FE323A8A816003B5CC0 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMShare.framework; sourceTree = "<group>"; };
+		23AF3FE423A8A816003B5CC0 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		23AF3FE723A8A816003B5CC0 /* libSocialWeChat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSocialWeChat.a; sourceTree = "<group>"; };
+		23AF3FE823A8A816003B5CC0 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		23AF400A23A8AD1E003B5CC0 /* TokenHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenHelper.h; sourceTree = "<group>"; };
+		23AF400B23A8AD1E003B5CC0 /* TokenHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenHelper.m; sourceTree = "<group>"; };
+		23E9F31023A3889100ABDEE0 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		23F4A6C923B0CB050072F143 /* NBFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NBFramework.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		234056CB23A269B2006CB7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AF3FED23A8A816003B5CC0 /* UShareUI.framework in Frameworks */,
+				23F4A6CA23B0CB060072F143 /* NBFramework.framework in Frameworks */,
+				234056F223A26A7E006CB7E9 /* JavaScriptCore.framework in Frameworks */,
+				23AF3FF023A8A816003B5CC0 /* libSocialWeChat.a in Frameworks */,
+				23AF3FEF23A8A816003B5CC0 /* UMCommon.framework in Frameworks */,
+				234056F023A26A78006CB7E9 /* libc++.tbd in Frameworks */,
+				23AF3FEE23A8A816003B5CC0 /* UMShare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234056C523A269B2006CB7E9 = {
+			isa = PBXGroup;
+			children = (
+				234056D023A269B2006CB7E9 /* NBFrameworkDemo */,
+				234056CF23A269B2006CB7E9 /* Products */,
+				234056EE23A26A78006CB7E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		234056CF23A269B2006CB7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234056CE23A269B2006CB7E9 /* NBFrameworkDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		234056D023A269B2006CB7E9 /* NBFrameworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23F4A6C923B0CB050072F143 /* NBFramework.framework */,
+				23AF3FD523A88677003B5CC0 /* NBFrameworkBundle.bundle */,
+				23E9F31023A3889100ABDEE0 /* TZImagePickerController.bundle */,
+				234056D123A269B2006CB7E9 /* AppDelegate.h */,
+				234056D223A269B2006CB7E9 /* AppDelegate.m */,
+				23AF3FD723A8A816003B5CC0 /* Demo */,
+				234056D423A269B2006CB7E9 /* SceneDelegate.h */,
+				234056D523A269B2006CB7E9 /* SceneDelegate.m */,
+				234056D723A269B2006CB7E9 /* ViewController.h */,
+				234056D823A269B2006CB7E9 /* ViewController.m */,
+				234056DA23A269B2006CB7E9 /* Main.storyboard */,
+				234056DD23A269B4006CB7E9 /* Assets.xcassets */,
+				234056DF23A269B4006CB7E9 /* LaunchScreen.storyboard */,
+				234056E223A269B4006CB7E9 /* Info.plist */,
+				234056E323A269B4006CB7E9 /* main.m */,
+			);
+			path = NBFrameworkDemo;
+			sourceTree = "<group>";
+		};
+		234056EE23A26A78006CB7E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234056F123A26A7E006CB7E9 /* JavaScriptCore.framework */,
+				234056EF23A26A78006CB7E9 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23AF3FD723A8A816003B5CC0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FD823A8A816003B5CC0 /* Accounts */,
+				23AF3FDF23A8A816003B5CC0 /* UMShareSDK */,
+				23AF400A23A8AD1E003B5CC0 /* TokenHelper.h */,
+				23AF400B23A8AD1E003B5CC0 /* TokenHelper.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		23AF3FD823A8A816003B5CC0 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FDD23A8A816003B5CC0 /* NBAccountListViewController.h */,
+				23AF3FDA23A8A816003B5CC0 /* NBAccountListViewController.m */,
+				23AF3FDB23A8A816003B5CC0 /* NBAccountModel.h */,
+				23AF3FDE23A8A816003B5CC0 /* NBAccountModel.m */,
+				23AF3FDC23A8A816003B5CC0 /* NBNetworkRequest.h */,
+				23AF3FD923A8A816003B5CC0 /* NBNetworkRequest.m */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		23AF3FDF23A8A816003B5CC0 /* UMShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FE023A8A816003B5CC0 /* UMSocialUI */,
+				23AF3FE323A8A816003B5CC0 /* UMShare.framework */,
+				23AF3FE423A8A816003B5CC0 /* UMCommon.framework */,
+				23AF3FE523A8A816003B5CC0 /* SocialLibraries */,
+			);
+			path = UMShareSDK;
+			sourceTree = "<group>";
+		};
+		23AF3FE023A8A816003B5CC0 /* UMSocialUI */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FE123A8A816003B5CC0 /* UMSocialSDKResources.bundle */,
+				23AF3FE223A8A816003B5CC0 /* UShareUI.framework */,
+			);
+			path = UMSocialUI;
+			sourceTree = "<group>";
+		};
+		23AF3FE523A8A816003B5CC0 /* SocialLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FE623A8A816003B5CC0 /* WeChat */,
+			);
+			path = SocialLibraries;
+			sourceTree = "<group>";
+		};
+		23AF3FE623A8A816003B5CC0 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				23AF3FE723A8A816003B5CC0 /* libSocialWeChat.a */,
+				23AF3FE823A8A816003B5CC0 /* UMSocialWechatHandler.h */,
+			);
+			path = WeChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		234056CD23A269B2006CB7E9 /* NBFrameworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 234056E723A269B4006CB7E9 /* Build configuration list for PBXNativeTarget "NBFrameworkDemo" */;
+			buildPhases = (
+				234056CA23A269B2006CB7E9 /* Sources */,
+				234056CB23A269B2006CB7E9 /* Frameworks */,
+				234056CC23A269B2006CB7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NBFrameworkDemo;
+			productName = NBFrameworkDemo;
+			productReference = 234056CE23A269B2006CB7E9 /* NBFrameworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		234056C623A269B2006CB7E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "张延深";
+				TargetAttributes = {
+					234056CD23A269B2006CB7E9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 234056C923A269B2006CB7E9 /* Build configuration list for PBXProject "NBFrameworkDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 234056C523A269B2006CB7E9;
+			productRefGroup = 234056CF23A269B2006CB7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				234056CD23A269B2006CB7E9 /* NBFrameworkDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234056CC23A269B2006CB7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234056E123A269B4006CB7E9 /* LaunchScreen.storyboard in Resources */,
+				23E9F31123A3889100ABDEE0 /* TZImagePickerController.bundle in Resources */,
+				23AF3FD623A88677003B5CC0 /* NBFrameworkBundle.bundle in Resources */,
+				234056DE23A269B4006CB7E9 /* Assets.xcassets in Resources */,
+				234056DC23A269B2006CB7E9 /* Main.storyboard in Resources */,
+				23AF3FEC23A8A816003B5CC0 /* UMSocialSDKResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234056CA23A269B2006CB7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234056D923A269B2006CB7E9 /* ViewController.m in Sources */,
+				23AF400C23A8AD1E003B5CC0 /* TokenHelper.m in Sources */,
+				234056D323A269B2006CB7E9 /* AppDelegate.m in Sources */,
+				23AF3FEA23A8A816003B5CC0 /* NBAccountListViewController.m in Sources */,
+				234056E423A269B4006CB7E9 /* main.m in Sources */,
+				23AF3FEB23A8A816003B5CC0 /* NBAccountModel.m in Sources */,
+				234056D623A269B2006CB7E9 /* SceneDelegate.m in Sources */,
+				23AF3FE923A8A816003B5CC0 /* NBNetworkRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		234056DA23A269B2006CB7E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234056DB23A269B2006CB7E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		234056DF23A269B4006CB7E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				234056E023A269B4006CB7E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		234056E523A269B4006CB7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		234056E623A269B4006CB7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		234056E823A269B4006CB7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NBFrameworkDemo",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK/UMSocialUI",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK/UMSocialUI",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK",
+				);
+				INFOPLIST_FILE = NBFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuhubang.wbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.niuhubang.wbs";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		234056E923A269B4006CB7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = J46HYNA3T9;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NBFrameworkDemo",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK/UMSocialUI",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK/UMSocialUI",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK",
+				);
+				INFOPLIST_FILE = NBFrameworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NBFrameworkDemo/UMShareSDK/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/NBFrameworkDemo/Demo/UMShareSDK/SocialLibraries/WeChat",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.niuhubang.wbs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Adhoc com.niuhubang.wbs";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		234056C923A269B2006CB7E9 /* Build configuration list for PBXProject "NBFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234056E523A269B4006CB7E9 /* Debug */,
+				234056E623A269B4006CB7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		234056E723A269B4006CB7E9 /* Build configuration list for PBXNativeTarget "NBFrameworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				234056E823A269B4006CB7E9 /* Debug */,
+				234056E923A269B4006CB7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 234056C623A269B2006CB7E9 /* Project object */;
+}

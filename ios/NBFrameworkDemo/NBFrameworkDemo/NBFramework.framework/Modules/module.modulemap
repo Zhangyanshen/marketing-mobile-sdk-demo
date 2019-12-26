@@ -1,0 +1,6 @@
+framework module NBFramework {
+  umbrella header "NBFramework.h"
+
+  export *
+  module * { export * }
+}

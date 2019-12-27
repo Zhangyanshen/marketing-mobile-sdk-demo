@@ -12,7 +12,7 @@ demo地址: https://github.com/NewBanker/marketing-mobile-sdk-demo/
 AndroidStudio导入工程的android目录
 
 ##### 2. 更新aar
-###### 1. 下载newbanker-marketing.aar包，[aar包下载地址](https://log.newbanker.work/sunis-andriod-aar)
+###### 1. 下载newbanker-marketing.aar包，[aar包下载地址](https://sunpack.newbanker.work)
 ***（注意：上面放置的是以时间戳结尾的aar文件，下载最新的aar文件后手动改成newbanker-marketing.aar再集成到工程）***
 ###### 2. 将下载好的newbanker-marketing.aar文件替换android/app/libs目录下的原aar文件
 ###### 3. 清空之前的aar缓存，参考Andrid常见问题。

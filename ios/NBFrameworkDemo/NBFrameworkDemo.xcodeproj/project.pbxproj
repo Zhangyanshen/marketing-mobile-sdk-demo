@@ -405,7 +405,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = J46HYNA3T9;
 				ENABLE_BITCODE = NO;
@@ -431,7 +431,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.niuhubang.wbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "match Development com.niuhubang.wbs";
+				PROVISIONING_PROFILE_SPECIFIER = "match Adhoc com.niuhubang.wbs";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;

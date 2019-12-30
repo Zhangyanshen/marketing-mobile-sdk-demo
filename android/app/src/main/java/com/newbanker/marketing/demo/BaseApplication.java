@@ -45,8 +45,8 @@ public class BaseApplication extends Application implements IShare {
          * https://yg-share.newtamp.cn 为h5请求地址
          */
         MarketingHelper.init(this, new Configuration.Builder()
-                .buildBaseH5("https://yg-marketing-api.newtamp.cn")
-                .buildBaseService("https://yg-share.newtamp.cn")
+                .buildBaseService("https://yg-marketing-api.newtamp.cn")
+                .buildBaseH5("https://yg-share.newtamp.cn")
                 .build()
         );
 

@@ -23,17 +23,16 @@ AndroidStudio导入工程的android目录
 
 下载本demo工程到本地。
 
-##### 2.下载 `webapp` 资源文件
+##### 2.下载iOS SDK
 
-从 [地址](https://log.newbanker.work/sunis-andriod-aar/)  下载 `webapp` 资源文件并解压。
+从 [SDK地址](https://log.newbanker.work/sunis-andriod-aar/)  下载iOS SDK并解压。
 
-<img src="./ios_images/3.png">
+<img src="./ios_images/1.png">
 
-##### 3.拷贝 `webapp` 资源文件
+##### 3.替换Demo工程中的SDK
 
-在demo工程中找到 `NBFrameworkBundle.bundle` ，右键  `显示包内容` ，然后将第二步下载的资源文件拷贝到 `Contents/Resources` 目录下。
+将第2步解压出来的文件拷贝到`ios/NBFrameworkDemo/NBFrameworkDemo`目录下进行替换。
 
-<img src="./ios_images/1.png" width="509" height="322">
 <img src="./ios_images/2.png" width="507" height="151">
 
 ##### 4.运行demo工程
@@ -43,6 +42,8 @@ AndroidStudio导入工程的android目录
 ## 常见问题
 
 ### iOS常见问题
+
+##### 1.如果集成SDK后报Undefine symbols __isPlatformVersionAtLeast，请将Xcode升级到11
 
 ### Android常见问题
 

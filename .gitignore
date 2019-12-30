@@ -88,3 +88,5 @@ xcuserdata/
 UserInterface.xcuserstate
 ios/NBFrameworkDemo/NBFrameworkDemo/NBFramework.framework/NBFramework
 ios/NBFrameworkDemo/NBFrameworkDemo/NBFrameworkBundle.bundle/Contents/Resources/webapp/
+ios/NBFrameworkDemo-Swift/NBFrameworkDemo-Swift/NBFramework.framework/NBFramework
+ios/NBFrameworkDemo-Swift/NBFrameworkDemo-Swift/NBFrameworkBundle.bundle/Contents/Resources/webapp/

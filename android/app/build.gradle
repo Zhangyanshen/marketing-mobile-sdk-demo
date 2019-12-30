@@ -45,6 +45,7 @@ android {
     configurations {
         all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
         all*.exclude group: 'com.squareup.okio', module: 'okio'
+        all*.exclude group: 'com.github.bumptech.glide'
     }
 
 }
@@ -56,6 +57,7 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation "ctrip.wireless.android:ReactAndroid:0.59.0-01-SNAPSHOT"
     implementation (name: 'newbanker-marketing', ext: 'aar')
+    implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.2.3'
 }
 
 repositories {

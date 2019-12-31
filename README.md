@@ -23,6 +23,8 @@ AndroidStudio导入工程的android目录
 
 下载本demo工程到本地。
 
+> demo中含有2个项目，`NBFrameworkDemo`是OC版本的，`NBFrameworkDemo-Swift`是Swift版本的，使用的是Swift 5开发的。另外Swift版本的Demo没有引入分享的SDK，如果需要查看分享功能，需要参照OC版本的demo先添加分享SDK。
+
 ##### 2.下载iOS SDK
 
 从 [SDK地址](https://log.newbanker.work/sunis-andriod-aar/)  下载iOS SDK并解压。

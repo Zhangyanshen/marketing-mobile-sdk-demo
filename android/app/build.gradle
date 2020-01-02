@@ -5,8 +5,10 @@ android {
         config {
             storeFile file('./niuhubang.jks')
             storePassword 'niuhubang'
-            keyAlias = 'niuhubang'
+            keyAlias 'niuhubang'
             keyPassword 'niuhubang'
+            v1SigningEnabled true
+            v2SigningEnabled true
         }
     }
     compileSdkVersion 28

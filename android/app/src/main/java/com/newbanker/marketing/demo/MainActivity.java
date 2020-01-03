@@ -1,7 +1,10 @@
 package com.newbanker.marketing.demo;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.Manifest;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText customTokenEdit;
 
+    private EntryEnum currentEntry;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,7 +49,8 @@ public class MainActivity extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                gotoMainActivity(entries[position]);
+                currentEntry = entries[position];
+                requestPermission();
             }
         });
 
@@ -100,6 +105,20 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private  void requestPermission(){
+        if(Build.VERSION.SDK_INT >= 23 ){
+            requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 000);
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (grantResults[0] == android.content.pm.PackageManager.PERMISSION_GRANTED) {
+            gotoMainActivity(currentEntry);
+        }
     }
 
 
